@@ -28,7 +28,7 @@ function char2num( character){
 }
 
 function getNumberfromString(numbers){
-	var temp ="";
+	var temp =0;
 	for (var i = 0; i < numbers.length; i++) {
 		temp+= char2num(numbers[i].toUpperCase());
 	  }
